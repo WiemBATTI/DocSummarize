@@ -1,0 +1,120 @@
+.app {
+  text-align: center;
+
+}
+
+.header {
+  background-color:rgba(10, 10, 10, 0.397);
+  padding: 10px;
+}
+
+.title {
+  color:  #1730c0d7;
+  font-size: 25px;
+  font-weight: bold;
+  font-style:oblique;
+  text-align: center;
+}
+
+
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+
+}
+
+.block {
+ 
+  text-align: center;
+}
+
+.txt{
+  color:  #4c5cb4;
+  line-height: 1.5;
+  font-style: italic;
+
+}
+.intro{
+  color: #000000;
+  font-weight: bold;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  margin-top: 15%;
+  margin-bottom: 2%;
+  width: 4px; /* Largeur de la ligne */
+  background-color: #4c5cb4; /* Couleur de la ligne */
+  transform: translateX(-50%); /* Centrer la ligne */
+}
+
+.block-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.block img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.block h2 {
+  margin: 10px 0;
+}
+
+.block p {
+  font-size: 14px;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  font-size: 14px;
+  resize: none;
+
+
+}
+input{
+  width: 80%;
+  height: 50px;
+  font-size: 14px;
+  
+}
+.img{
+  width: 100px;
+  height: 100px;
+  background-color: #5EC2D7;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+/* Styles de base pour le bouton */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 14px;
+  background-color: rgb(103, 196, 90);
+  color: white;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+/* Style lorsque le bouton est survolé */
+.button:hover {
+  background-color: rgb(59, 163, 197);
+}
+
+/* Style lorsque le bouton est pressé */
+.button:active {
+  background-color: green;
+}
